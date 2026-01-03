@@ -3,18 +3,12 @@
     "version": "0.0.1",
     "description": "Barnevennlige norske MakeCode blokker for Keyestudio 4WD Mecanum robot",
     "dependencies": {
-        "core": "*",
-        "microphone": "*",
-        "pxt-mecanum-robot-V2": "github:keyestudio2019/mecanum_robot_v2",
-        "IrRemote": "github:mworkfun/pxt-IRremote"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
+        "core.ts",
+        "drive.ts",
         "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
     ],
     "targetVersions": {
         "target": "8.0.18",
