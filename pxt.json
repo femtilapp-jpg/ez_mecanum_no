@@ -7,7 +7,6 @@
     },
     "files": [
         "core.ts",
-        "drive.ts",
         "README.md"
     ],
     "targetVersions": {
